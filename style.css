@@ -1,0 +1,42 @@
+html, body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar, header, footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+
+
+}
+
+header p {
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+button, .call-to-act {
+    background-color: #3882F6;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
