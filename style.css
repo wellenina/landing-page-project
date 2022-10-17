@@ -29,22 +29,27 @@ html, body {
 h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 5px 0;
 }
 
 header p {
     color: #E5E7EB;
     font-size: 24px;
+    margin: 5px 0;
 }
 
-header img {
-    width: 500px;
+header .img {
+    width: 70vw;
     height: 200px;
-    background-color: gray;
+    background-color: lightslategray;
     text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 header {
     padding: 4rem 0;
+    gap: 2rem;
 }
 
 button, .call-to-act {
@@ -57,10 +62,10 @@ header button {
 }
 
 button {
-    padding: 10px 20px;
+    padding: 10px 40px;
 }
 
-button, .random-info img, .call-to-act {
+button, .random-info .img, .call-to-act {
     border-radius: 8px;
 }
 
@@ -78,7 +83,7 @@ h2 {
     font-size: 14px;
 }
 
-.random-info img {
+.random-info .img {
     border: 3px solid #3882F6;
     width: 150px;
     height: 150px;
@@ -87,6 +92,7 @@ h2 {
 
 .random-info p {
     max-width: 150px;
+    text-align: center;
 }
 
 .random-info, .quote {
@@ -124,6 +130,10 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.call-to-act p, h3 {
+    margin: 5px 0;
 }
 
 .call-to-act button {
