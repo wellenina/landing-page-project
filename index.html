@@ -3,73 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <title>Cooper &amp; Mulder</title>
 </head>
 <body>
 
-<div class="navbar">
+<div class="navbar" id="top">
     <div class="navbar-inner">
-    <img src="images/cat-icon.png" alt="Cooper &amp; Mulder paw logo">
+    <a href="#top"><img src="images/cat-icon.png" alt="Cooper &amp; Mulder paw logo"></a>
     <div class="menu">
-        <a>Our team</a>
-        <a>Our passions</a>
-        <a>Our quotes</a>
+        <a href="#team">Our team</a>
+        <a href="#passions">Our passions</a>
+        <a href="#quotes">Our quotes</a>
     </div>
 </div>
 </div>
 
-<div class="quote-background">
-    <section class="quote">
-    <em>Problems with paranormal mysteries? Tired of alien abductions? Need some cuddles?</em>
-    <p>We&apos;re here for you!</p>
+    <section class="claim">
+    <p class="problems">Problems with paranormal mysteries?<br>Tired of alien abductions? Need some cuddles?</p>
+    <p>We&rsquo;re here for you!</p>
     </section>
-    </div>
 
 <header>
     <div class="header-inner">
 <div>
 <h1>Cooper &amp; Mulder<br>FBI* Special Agents</h1>
-<p>The awesomest investigators in town</p>
+<h3>The awesomest investigators in town</h3>
+<div class="header-bottom">
 <p class="small">* Feline Bureau of Investigation</p>
 <button>Meow!</button>
 </div>
-<img alt="this is a placeholder for an image">
+</div>
+<img src="images/cooper-mulder.jpg" alt="Cooper &amp; Mulder FBI* Special Agents">
 </div>
 </header>
 
-<section class="random-info">
+<section class="random-info" id="team">
     <h2>Meet the team...</h2>
     <div class="random-info-inner">
 
-    <div class="container">
-        <img alt="placeholder">
-        <p>Cooper, FBI* Special Agent</p>
+    <div>
+        <img src="images/cooper1.jpg" alt="Cooper, FBI* Special Agent">
+        <p class="name">Cooper</p>
+        <p class="description">FBI* Special Agent</p>
     </div>
 
-    <div class="container">
-        <img alt="placeholder">
-        <p>Mulder, FBI* Special Agent</p>
+    <div>
+        <img src="images/mulder1.jpg" alt="Mulder, FBI* Special Agent">
+        <p class="name">Mulder</p>
+        <p class="description">FBI* Special Agent</p>
     </div>
 
-    <div class="container">
-        <img alt="placeholder">
-        <p>Giulia, our assistant</p>
+    <div>
+        <img src="images/giulia.jpg" alt="Giulia, our assistant">
+        <p class="name">Giulia</p>
+        <p class="description">Our assistant</p>
     </div>
 </div>
 
 </section>
 
-<section class="random-info">
-    <h2>What we&apos;re passionate about…</h2>
+<section class="random-info" id="passions">
+    <h2>What we&rsquo;re passionate about…</h2>
     <div class="random-info-inner">
 
-    <div class="container">
-        <img alt="placeholder">
+    <div>
+        <img src="images/cooper2.jpg" alt="Cooper, FBI* Special Agent">
     </div>
 
     <div class="container">
-        <h4>Agent Cooper</h4>
+        <p class="name">Agent Cooper</p>
         <ul>
             <li>Catnip</li>
             <li>A damn fine cup of coffee</li>
@@ -78,12 +82,12 @@
 
     </div>
 
-    <div class="container">
-        <img alt="placeholder">
+    <div>
+        <img src="images/mulder2.jpg" alt="Mulder, FBI* Special Agent">
     </div>
 
     <div class="container">
-        <h4>Agent Mulder</h4>
+        <p class="name">Agent Mulder</p>
         <ul>
             <li>Fancy cheese</li>
             <li>UFOs sightings</li>
@@ -95,14 +99,14 @@
 
 </section>
 
-<div class="quote-background">
+<div class="quote-background" id="quotes">
     <section class="quote">
-    <em>The truth is out there</em>
-    <p>Agent Mulder</p>
+    <p class="words">The truth is out there</p>
+    <p class="author">Agent Mulder</p>
     </section>
     <section class="quote">
-        <em>They&apos;ve got a cherry pie there that&apos;ll kill ya</em>
-        <p>Agent Cooper</p>
+        <p class="words">They&rsquo;ve got a cherry pie there that&rsquo;ll kill ya</p>
+        <p class="author">Agent Cooper</p>
         </section>
     </div>
 
@@ -110,13 +114,22 @@
     <div class="call-to-act-inner">
     <div>
 <h3>Competitive prices!</h3>
-<p>We accept treats, cardboard boxes, catnip</p>
+<p>We accept treats, plush toys, cardboard boxes</p>
 </div>
 <button>Meow!</button>
 </div>
 </section>
 
-<footer>Copyright © The Odin Project 2021</footer>
+<footer>
+    <p>
+        &#x1F496; <br />
+        A silly project by
+        <a href="https://github.com/wellenina" target="_blank">wellenina</a> for
+      </p>
+      <a href="https://www.theodinproject.com/" target="_blank">
+        <img id="odin" src="images/theOdinProject.png" alt="The Odin Project">
+    </a>
+</footer>
 
     
 </body>
