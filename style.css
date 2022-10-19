@@ -18,7 +18,7 @@ html, body {
 }
 
 .navbar-inner, .header-inner {
-    max-width: 80vw;
+    width: min(1250px, 80vw);
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -53,6 +53,11 @@ html, body {
 }
 
 /* claim */
+
+.claim {
+    width: fit-content;
+    margin: 0 auto;
+}
 
 .claim p {
     font-size: 36px;
@@ -135,8 +140,8 @@ button, .random-info img, .call-to-act {
 
 /* "meet the team" + "we're passionate about" sections */
 
-.claim, .random-info, .quote {
-    max-width: 60vw;
+.random-info, .quote {
+    width: min(950px, 60vw);
     margin: 0 auto;
 }
 
@@ -176,10 +181,6 @@ h2 {
     text-transform: uppercase;
     max-width: 150px;
     margin: 0;
-}
-
-.random-info .container {
-    padding-left: 2rem;
 }
 
 .random-info ul {
@@ -237,13 +238,13 @@ h2 {
 /* call to action */
 
 .call-to-act {
-    max-width: 80vw;
+    width: min(1250px, 80vw);
     margin: 64px auto;
     padding: 20px 0;
 }
 
 .call-to-act-inner {
-    max-width: 60vw;
+    width: min(950px, 60vw);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
