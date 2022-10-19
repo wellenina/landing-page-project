@@ -152,7 +152,7 @@ button, .random-info img, .call-to-act {
 .random-info-inner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
     font-size: 18px;
 }
@@ -176,6 +176,14 @@ h2 {
     font-size: 22px;
     max-width: 150px;
     margin-bottom: 0;
+}
+
+#team .name {
+    margin-bottom: 0;
+}
+
+#passions .name {
+    margin: 0;
 }
 
 .random-info .description {
