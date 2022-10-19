@@ -140,7 +140,7 @@ button, .random-info img, .call-to-act {
 
 /* "meet the team" + "we're passionate about" sections */
 
-.random-info, .quote {
+.random-info {
     width: min(950px, 60vw);
     margin: 0 auto;
 }
@@ -153,6 +153,7 @@ button, .random-info img, .call-to-act {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
     font-size: 18px;
 }
 
@@ -194,6 +195,14 @@ h2 {
 
 /* quote section */
 
+.quote {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .quote-background {
     background-color: #00f5d4;
 }
@@ -230,7 +239,6 @@ h2 {
 
 .quote .author {
     text-transform: uppercase;
-    text-align: end;
     font-weight: 700;
     margin: 1rem 0 4rem;
 }
@@ -268,7 +276,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #f15bb5;
+    color: #FF8EBE;
     font-size: larger;
     font-weight: 900;
 }
